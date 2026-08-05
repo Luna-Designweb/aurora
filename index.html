@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Aurora Café — Cafeteria Artesanal | Cada xícara conta uma história</title>
+<meta name="description" content="Aurora Café: cafeteria artesanal com grãos especiais, confeitaria fresca e um ambiente acolhedor no coração da cidade." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- LOADER -->
+<div class="loader" id="loader">
+  <div class="loader-cup">
+    <span class="steam s1"></span><span class="steam s2"></span><span class="steam s3"></span>
+    <div class="cup"><div class="cup-body"></div><div class="cup-handle"></div></div>
+  </div>
+  <p class="loader-brand">AURORA <span>CAFÉ</span></p>
+  <div class="loader-bar"><i></i></div>
+</div>
+
+<!-- PROGRESS -->
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- HEADER -->
+<header class="header" id="header">
+  <div class="container header-inner">
+    <a href="#home" class="logo">
+      <span class="logo-mark">A</span>
+      <span class="logo-text">Aurora <em>Café</em></span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#cardapio" class="nav-link">Cardápio</a>
+      <a href="#historia" class="nav-link">Nossa História</a>
+      <a href="#ambiente" class="nav-link">Ambiente</a>
+      <a href="#avaliacoes" class="nav-link">Avaliações</a>
+      <a href="#contato" class="nav-link">Contato</a>
+      <a href="#contato" class="btn btn-nav">Reservar mesa</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Abrir menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-media">
+    <video autoplay muted loop playsinline poster="https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=1920&q=80">
+      <source src="https://videos.pexels.com/video-files/2795750/2795750-hd_1920_1080_25fps.mp4" type="video/mp4" />
+      <source src="https://videos.pexels.com/video-files/3195394/3195394-uhd_2560_1440_25fps.mp4" type="video/mp4" />
+    </video>
+    <div class="hero-fallback"></div>
+  </div>
+  <div class="hero-overlay"></div>
+  <div class="container hero-content">
+    <p class="eyebrow reveal">Torra artesanal desde 2009</p>
+    <h1 class="hero-title reveal">Cada xícara<br /><em>conta uma história.</em></h1>
+    <p class="hero-sub reveal">Grãos selecionados de microlotes brasileiros, torrados lentamente e servidos em um ambiente feito para desacelerar.</p>
+    <div class="hero-actions reveal">
+      <a href="#cardapio" class="btn btn-gold">Conheça nosso cardápio</a>
+      <a href="#historia" class="btn btn-ghost">Nossa história</a>
+    </div>
+    <div class="hero-stats reveal">
+      <div><strong>16</strong><span>anos de ofício</span></div>
+      <div><strong>32</strong><span>microlotes por ano</span></div>
+      <div><strong>4.9</strong><span>avaliação média</span></div>
+    </div>
+  </div>
+  <a href="#sobre" class="scroll-hint"><span></span>role para descobrir</a>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee">
+  <div class="marquee-track">
+    <span>Torra artesanal</span><i>✦</i><span>Grãos especiais</span><i>✦</i><span>Confeitaria fresca</span><i>✦</i><span>Método coado</span><i>✦</i><span>Ambiente acolhedor</span><i>✦</i>
+    <span>Torra artesanal</span><i>✦</i><span>Grãos especiais</span><i>✦</i><span>Confeitaria fresca</span><i>✦</i><span>Método coado</span><i>✦</i><span>Ambiente acolhedor</span><i>✦</i>
+  </div>
+</div>
+
+<!-- SOBRE -->
+<section class="section sobre" id="sobre">
+  <div class="container split">
+    <div class="split-media reveal">
+      <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1000&q=80" alt="Barista preparando cappuccino" loading="lazy" />
+      <img class="split-media-float parallax" data-speed="0.08" src="https://images.unsplash.com/photo-1559925393-8be0ec4767c8?auto=format&fit=crop&w=700&q=80" alt="Fachada da cafeteria" loading="lazy" />
+      <div class="badge-years"><strong>2009</strong><span>desde</span></div>
+    </div>
+    <div class="split-text reveal">
+      <p class="eyebrow">Sobre a cafeteria</p>
+      <h2>Um refúgio quente<br /> no meio da pressa.</h2>
+      <p class="lead">A Aurora nasceu de uma torradeira de 5kg e da teimosia de servir café de verdade. Hoje somos casa de torra, cafeteria e confeitaria — tudo feito no mesmo endereço, todos os dias, à mão.</p>
+      <p>Trabalhamos com produtores da Mantiqueira, do Cerrado Mineiro e do Sul de Minas, comprando safras inteiras e pagando acima do mercado. O resultado chega limpo na xícara: doçura, corpo e um final longo.</p>
+      <ul class="feature-list">
+        <li><span>01</span><div><strong>Torra própria</strong><p>Perfis desenvolvidos lote a lote, torrados semanalmente.</p></div></li>
+        <li><span>02</span><div><strong>Confeitaria fresca</strong><p>Massa folhada e cheesecakes assados na madrugada.</p></div></li>
+        <li><span>03</span><div><strong>Baristas certificados</strong><p>Time formado em SCA, com extração calibrada a cada turno.</p></div></li>
+      </ul>
+      <a href="#ambiente" class="link-underline">Conheça o espaço →</a>
+    </div>
+  </div>
+</section>
+
+<!-- CARDÁPIO -->
+<section class="section cardapio" id="cardapio">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Cardápio</p>
+      <h2>Feito devagar,<br /> servido na hora.</h2>
+      <p class="section-desc">Onze clássicos da casa. Todos preparados na hora, com leite fresco de fazenda e grãos torrados há menos de dez dias.</p>
+    </div>
+
+    <div class="filters reveal" id="filters">
+      <button class="chip active" data-filter="all">Tudo</button>
+      <button class="chip" data-filter="cafe">Cafés</button>
+      <button class="chip" data-filter="bebida">Outras bebidas</button>
+      <button class="chip" data-filter="doce">Confeitaria</button>
+    </div>
+
+    <div class="menu-grid" id="menuGrid"></div>
+
+    <div class="menu-cta reveal">
+      <p>Cardápio completo com sazonais, métodos filtrados e opções veganas.</p>
+      <a href="#contato" class="btn btn-dark">Falar com a casa</a>
+    </div>
+  </div>
+</section>
+
+<!-- PARALLAX QUOTE -->
+<section class="quote-band">
+  <div class="quote-bg parallax-bg" data-speed="0.25"></div>
+  <div class="container quote-inner reveal">
+    <span class="quote-mark">“</span>
+    <p>O café não deveria ser rápido. Deveria ser o motivo de você parar.</p>
+    <cite>— Helena Rocha, fundadora</cite>
+  </div>
+</section>
+
+<!-- GALERIA -->
+<section class="section galeria" id="galeria">
+  <div class="container">
+    <div class="section-head center reveal">
+      <p class="eyebrow">Galeria</p>
+      <h2>Detalhes que a gente cuida</h2>
+    </div>
+    <div class="gallery" id="gallery"></div>
+  </div>
+</section>
+
+<!-- AMBIENTE -->
+<section class="section ambiente" id="ambiente">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Ambiente</p>
+      <h2>Três salões,<br /> um mesmo silêncio bom.</h2>
+    </div>
+    <div class="ambiente-grid">
+      <article class="ambiente-card reveal">
+        <div class="ambiente-img"><img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=900&q=80" alt="Salão principal com mesas de madeira" loading="lazy" /></div>
+        <div class="glass-box">
+          <h3>Salão principal</h3>
+          <p>Mesas de madeira maciça, luz baixa e trilha em vinil. Ideal para conversas longas.</p>
+          <span class="tag">42 lugares</span>
+        </div>
+      </article>
+      <article class="ambiente-card reveal">
+        <div class="ambiente-img"><img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=900&q=80" alt="Área de trabalho com tomadas" loading="lazy" /></div>
+        <div class="glass-box">
+          <h3>Mezanino de trabalho</h3>
+          <p>Wi-Fi dedicado, tomadas em todas as mesas e silêncio combinado até as 16h.</p>
+          <span class="tag">18 lugares</span>
+        </div>
+      </article>
+      <article class="ambiente-card reveal">
+        <div class="ambiente-img"><img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=900&q=80" alt="Jardim interno da cafeteria" loading="lazy" /></div>
+        <div class="glass-box">
+          <h3>Jardim interno</h3>
+          <p>Pé-direito alto, plantas e sol da manhã. O melhor lugar para o primeiro café do dia.</p>
+          <span class="tag">26 lugares</span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- HISTÓRIA -->
+<section class="section historia" id="historia">
+  <div class="container">
+    <div class="section-head center reveal">
+      <p class="eyebrow">Nossa História</p>
+      <h2>Da torradeira de fundo<br /> de quintal ao balcão</h2>
+    </div>
+    <div class="timeline" id="timeline"></div>
+  </div>
+</section>
+
+<!-- AVALIAÇÕES -->
+<section class="section avaliacoes" id="avaliacoes">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Avaliações</p>
+      <h2>Quem senta, volta.</h2>
+      <p class="section-desc">4.9 de média em 2.418 avaliações no Google e no TripAdvisor.</p>
+    </div>
+    <div class="reviews" id="reviews"></div>
+    <div class="reviews-nav reveal">
+      <button id="revPrev" aria-label="Anterior">←</button>
+      <button id="revNext" aria-label="Próximo">→</button>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section faq" id="faq">
+  <div class="container split-faq">
+    <div class="reveal">
+      <p class="eyebrow">FAQ</p>
+      <h2>Perguntas<br /> frequentes</h2>
+      <p class="section-desc">Não achou o que procurava? Chame a gente no WhatsApp — respondemos em minutos.</p>
+      <a href="https://wa.me/5511999999999" target="_blank" rel="noopener" class="btn btn-dark">Falar no WhatsApp</a>
+    </div>
+    <div class="accordion reveal" id="accordion"></div>
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="newsletter">
+  <div class="newsletter-bg parallax-bg" data-speed="0.2"></div>
+  <div class="container newsletter-inner reveal">
+    <div class="glass-panel">
+      <p class="eyebrow">Clube Aurora</p>
+      <h2>Receba o microlote do mês</h2>
+      <p>Uma carta por mês com a safra que acabou de sair da torra, receitas de extração e convites para provas fechadas.</p>
+      <form class="news-form" id="newsForm" novalidate>
+        <input type="text" id="newsName" placeholder="Seu nome" aria-label="Seu nome" />
+        <input type="email" id="newsEmail" placeholder="seu@email.com" aria-label="Seu e-mail" />
+        <button class="btn btn-gold" type="submit">Quero receber</button>
+      </form>
+      <small>Sem spam. Cancele quando quiser.</small>
+    </div>
+  </div>
+</section>
+
+<!-- CONTATO -->
+<section class="section contato" id="contato">
+  <div class="container split contato-split">
+    <div class="split-text reveal">
+      <p class="eyebrow">Contato</p>
+      <h2>Venha tomar<br /> um café com a gente.</h2>
+      <ul class="contact-list">
+        <li><span class="ci">📍</span><div><strong>Endereço</strong><p>Rua das Oliveiras, 128 — Vila Madalena, São Paulo/SP</p></div></li>
+        <li><span class="ci">🕒</span><div><strong>Horário</strong><p>Seg a Sex 7h–20h · Sáb e Dom 8h–19h</p></div></li>
+        <li><span class="ci">✆</span><div><strong>Telefone</strong><p>(11) 3555-0128</p></div></li>
+        <li><span class="ci">✉</span><div><strong>E-mail</strong><p>ola@auroracafe.com.br</p></div></li>
+      </ul>
+      <div class="socials">
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="#" aria-label="Facebook">Facebook</a>
+        <a href="#" aria-label="TripAdvisor">TripAdvisor</a>
+      </div>
+    </div>
+    <div class="reveal">
+      <form class="contact-form" id="contactForm" novalidate>
+        <h3>Reserve sua mesa</h3>
+        <div class="row">
+          <label>Nome<input type="text" id="cName" placeholder="Como podemos te chamar?" /></label>
+          <label>Telefone<input type="tel" id="cPhone" placeholder="(11) 90000-0000" /></label>
+        </div>
+        <div class="row">
+          <label>Data<input type="date" id="cDate" /></label>
+          <label>Pessoas<select id="cPeople"><option>1 pessoa</option><option>2 pessoas</option><option>3 a 4 pessoas</option><option>5 a 8 pessoas</option><option>Mais de 8</option></select></label>
+        </div>
+        <label>Mensagem<textarea id="cMsg" rows="4" placeholder="Alguma preferência de salão?"></textarea></label>
+        <button class="btn btn-gold full" type="submit">Enviar reserva</button>
+        <small class="form-note">Confirmamos por WhatsApp em até 1 hora.</small>
+      </form>
+    </div>
+  </div>
+  <div class="container">
+    <div class="map reveal">
+      <iframe title="Mapa Aurora Café" src="https://www.google.com/maps?q=Vila+Madalena,+S%C3%A3o+Paulo&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-top">
+    <div class="footer-brand">
+      <a href="#home" class="logo"><span class="logo-mark">A</span><span class="logo-text">Aurora <em>Café</em></span></a>
+      <p>Casa de torra e cafeteria artesanal. Grãos rastreados, confeitaria feita à mão e tempo para sentar.</p>
+    </div>
+    <div class="footer-col"><h4>Navegação</h4><a href="#home">Home</a><a href="#cardapio">Cardápio</a><a href="#historia">Nossa História</a><a href="#ambiente">Ambiente</a><a href="#avaliacoes">Avaliações</a><a href="#contato">Contato</a></div>
+    <div class="footer-col"><h4>Cardápio</h4><a href="#cardapio">Espresso</a><a href="#cardapio">Cappuccino</a><a href="#cardapio">Cold Brew</a><a href="#cardapio">Chás</a><a href="#cardapio">Confeitaria</a></div>
+    <div class="footer-col"><h4>Visite</h4><p>Rua das Oliveiras, 128<br />Vila Madalena — São Paulo/SP</p><p>Seg–Sex 7h–20h<br />Sáb–Dom 8h–19h</p></div>
+  </div>
+  <div class="container footer-bottom">
+    <p>© <span id="year"></span> Aurora Café. Todos os direitos reservados.</p>
+    <p>Projeto fictício criado para fins de demonstração.</p>
+  </div>
+</footer>
+
+<!-- FLOATING -->
+<a class="whatsapp" href="https://wa.me/5511999999999" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <svg viewBox="0 0 32 32" width="26" height="26" fill="currentColor"><path d="M16 3C8.8 3 3 8.8 3 16c0 2.3.6 4.5 1.8 6.5L3 29l6.7-1.8c1.9 1 4.1 1.6 6.3 1.6 7.2 0 13-5.8 13-13S23.2 3 16 3zm0 23.6c-2 0-3.9-.5-5.6-1.5l-.4-.2-4 1.1 1.1-3.9-.3-.4c-1.1-1.7-1.6-3.7-1.6-5.7C5.2 10 10 5.2 16 5.2S26.8 10 26.8 16 22 26.6 16 26.6zm6-7.9c-.3-.2-1.9-1-2.2-1.1-.3-.1-.5-.2-.7.2s-.8 1.1-1 1.3c-.2.2-.4.2-.7.1-1.8-.9-3-1.6-4.2-3.6-.3-.5.3-.5.9-1.6.1-.2 0-.4 0-.6s-.7-1.7-1-2.3c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-1.2 1.2-1.2 2.9-.1 4.6 1.1 1.7 2.3 3.8 5.6 5.2 2.3 1 3.2 1.1 4.3.9.7-.1 1.9-.8 2.2-1.6.3-.8.3-1.4.2-1.6-.1-.1-.3-.2-.6-.3z"/></svg>
+  <span class="wa-tip">Fale com a gente</span>
+</a>
+<button class="to-top" id="toTop" aria-label="Voltar ao topo">↑</button>
+
+<div class="toast" id="toast"></div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
